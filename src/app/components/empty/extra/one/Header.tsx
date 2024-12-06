@@ -1,7 +1,7 @@
 
 // NEW   FILE
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 export default function Header() {
   return (
     <div>
@@ -10,7 +10,7 @@ export default function Header() {
       {/* side bar */}
       <div className="w-[217px] h-[344px] relative left-[135px] ">
         <div className="w-[217px] h-[24px] flex">
-            <div className="w-[142px]">Woman’s Fashion</div>
+            <div className="w-[142px]">Woman s Fashion</div>
             <Image src={"/Vector7.png"} alt="" width={14} height={14} />
         </div>
         <div className="w-[217px] h-[24px] flex">
@@ -21,7 +21,7 @@ export default function Header() {
         <p>Home & Lifestyle</p>
         <p>Medicine</p>
         <p>Sports & Outdoor</p>
-        <p>Baby’s & Toys</p>
+        <p>Baby s & Toys</p>
         <p>Groceries & Pets</p>
         <p>Health & Beauty</p>
 
@@ -158,6 +158,6 @@ export default function Header() {
 
 
 
-    </div>
-  );
+ </div>
+);
 }

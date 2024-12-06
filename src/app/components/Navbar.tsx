@@ -26,10 +26,10 @@ export default function Navbar(){
             Exclusive
           </p>
           <div className="w-[367px] h-[24px] gap-[48px] justify-between ">
-            <Link href="/">Home</Link>
-            <Link href="/">Contact</Link>
-            <Link href="/jdc-it-city">About</Link>
-            <Link href="/SignUp">Sign Up</Link>
+          <Link className="relative left-[45px] ml-[45px] "  href="/">Home</Link>
+            <Link className="relative left-[45px] ml-[45px] " href="/contact">Contact</Link>
+            <Link className="relative left-[45px]  " href="/about">About</Link>
+            <Link className="relative left-[45px]  " href="/SignUp">Sign Up</Link>
           </div>
         </div>
       </div>
